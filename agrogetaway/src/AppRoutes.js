@@ -1,10 +1,10 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import LandingPage from "./LandingPage";
-import SignIn from "./SignIn";
-import SignUp from "./SignUp";
+import LandingPage from "./components/LandingPage";
+import SignIn from "./components/SignIn";
+import SignUp from "./components/SignUp";
 
-const Routes = () => {
+const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<LandingPage />} />
@@ -14,4 +14,4 @@ const Routes = () => {
   );
 };
 
-export default Routes;
+export default AppRoutes;
